@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import dbConnect from '../../../lib/mongodb';
+import dbConnect from '@/lib/mongodb';
 import Post, { IPost } from '../../../models/Post';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
